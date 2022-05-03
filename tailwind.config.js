@@ -10,6 +10,6 @@ module.exports = {
   plugins: [
     require('tailwind-scrollbar'),
     require('tailwind-scrollbar-hide'),
-    require('@tailwindcss/forms'),
+    // require('@tailwindcss/forms'),
   ],
 };
