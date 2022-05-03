@@ -8,6 +8,8 @@ module.exports = {
   },
   // tailwind.config.js
   plugins: [
-    // ...
+    require('tailwind-scrollbar'),
+    require('tailwind-scrollbar-hide'),
+    require('@tailwindcss/forms'),
   ],
 };
