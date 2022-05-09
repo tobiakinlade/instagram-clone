@@ -12,7 +12,7 @@ function MiniProfile() {
       />
 
       <div className='flex-1 mx-4'>
-        <h2 className='font-bold'>{session?.use?.username}</h2>
+        <h2 className='font-bold'>{session?.user?.username}</h2>
         <h3 className='texr-sm text-gray-400'>Welcome to Instagram</h3>
       </div>
 
